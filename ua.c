@@ -16,5 +16,7 @@ void loop(){
   } else {
     digitalWrite(4, HIGH);
     digitalWrite(3, HIGH);
+    digitalWrite(4, LOW);
+    digitalWrite(3, LOW);
   }
 }
